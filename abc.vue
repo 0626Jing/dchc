@@ -2,6 +2,7 @@
   <div class="">
 
 {{ count }}
+{{ vd }}
 
 
   </div>
@@ -10,6 +11,7 @@
 import { ref } from "vue"
 
 const count = ref(0)
+const vd = ref(0)
 
 
 </script>
